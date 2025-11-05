@@ -170,3 +170,15 @@ footer {
     padding: 1.5rem;
   }
 }
+
+
+.meeting-log {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.gantt-chart {
+  max-width: 50rem;
+  max-height: 100rem;
+}
