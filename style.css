@@ -182,3 +182,7 @@ footer {
   max-width: 50rem;
   max-height: 100rem;
 }
+
+.crc {
+  max-width: 25rem;
+}
