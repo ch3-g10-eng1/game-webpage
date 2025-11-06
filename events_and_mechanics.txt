@@ -1,0 +1,52 @@
+ Game Events and Mechanics
+
+  Hidden Events
+
+  These are invisible triggers placed randomly in the maze that activate when the player walks over them.
+
+  Darkness Event
+  - Triggered once when player steps on a hidden tile
+  - Reduces visibility for 10 seconds by applying a dark overlay (65% opacity)
+  - Player can still see the maze layout but with significantly reduced clarity
+  - Triples final score if completed while active
+
+  Lecturer Event
+  - Spawns a second enemy lecturer when triggered
+  - Adds an additional threat to navigate around
+  - Also provides a 3x score multiplier if active at game completion
+
+  Dynamic Event
+
+  Super Enemy
+  - Spawns automatically when player reaches the center of the maze (within 5 units of the midpoint)
+  - Moves faster than regular lecturers (2.5x speed)
+  - Only appears once per game
+  - Can damage player on contact unless shield is active
+
+  Collectible Powerups
+
+  Keys (3 per maze)
+  - Required to unlock the exit gates
+  - Must collect all keys before finishing the level
+
+  Book
+  - Provides a one-time shield that blocks damage from enemies or fire
+  - Shield is consumed when hit
+
+  Coffee
+  - Doubles player movement speed permanently
+  - One-time pickup
+
+  Coins (10 per maze)
+  - Each coin adds 1500 points
+  - Collecting all coins multiplies total score by 8x
+
+  Hazards
+
+  Fire Laptops (2 per maze)
+  - Removes one heart on contact unless shield is active
+  - Disappears after being triggered
+
+  Water Spills (2 per maze)
+  - Reduces player speed by 20%
+  - Effect is permanent and stacks with multiple hits
