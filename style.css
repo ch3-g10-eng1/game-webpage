@@ -117,8 +117,58 @@ section ul {
   border-radius: 4px;
 }
 
-.download-buttons {
+.download-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
   margin-top: 1rem;
+}
+
+.download-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  background-color: #3498db;
+  border-color: #34495e;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-right: 1rem;
+  color: white;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-weight: 500;
+}
+
+.download-buttons:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.download-icon {
+  font-size: 1.5rem;
+}
+
+.download-text {
+  font-size: 1rem;
+}
+
+.game-download {
+  background: #27ae60
+}
+
+.game-download:hover {
+  background: #229954;
+}
+
+.github-link {
+  background: #24292e;
+}
+
+.github-link:hover {
+  background: #1a1e22;
 }
 
 .btn {
