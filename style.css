@@ -236,3 +236,7 @@ footer {
 .crc {
   max-width: 70rem;
 }
+
+.uml {
+  display: block;
+}
